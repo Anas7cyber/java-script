@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-
 <body>
-
 <h1>Simple Calculator</h1>
 <p>Perform all Operations using JavaScript</p>
 <p id="add"></p>
