@@ -1,2 +1,29 @@
-so yea its a little calcutator where you change the num1 and num2 value to find out the divsion,multiplication,subcration and
-addition  of the number you put in there sooooooooooooooooooooo...bye >:D
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1>Simple Calculator</h1>
+<p>Perform all Operations using JavaScript</p>
+<p id="add"></p>
+<p id="sub"></p>
+<p id="mul"></p>
+<p id="div"></p>
+<script>
+    var num1 = 10;
+    var num2 = 2;
+    var add = num1 + num2;
+var sub = num1 - num2;
+var mul = num1 * num2;
+var div = num1 / num2;
+document.getElementById("add").innerHTML =
+"The added value is: " + add;
+document.getElementById("sub").innerHTML =
+"The subtracted value is: " + sub;
+document.getElementById("mul").innerHTML =
+"The multiplied value is: " + mul;
+document.getElementById("div").innerHTML =
+"The divided value is: " + div;
+</script>
+</body>
+</html>
