@@ -24,4 +24,4 @@ document.getElementById("div").innerHTML =
 "The divided value is: " + div;
 </script>
 </body>
-</html>
+</html> 
